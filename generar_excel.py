@@ -51,7 +51,7 @@ CATEGORIAS = [
 
     # ── Carrocería — 37 subcategorías N4 — URL N3 verificada ✓ ───────────────
     # URL verificada: https://listado.mercadolibre.com.ar/accesorios-vehiculos/repuestos-autos-camionetas/carroceria/
-    (N1, N2, "Carrocería", "Alojamientos de Ópticas",    "", url_n3("carroceria"), "", ""),
+    (N1, N2, "Carrocería", "Alojamientos de Ópticas",    "", url_n4("carroceria", "alojamientos-opticas"), "", "* URL inferida | Terminal N4"),
     (N1, N2, "Carrocería", "Barras",                      "", url_n3("carroceria"), "", ""),
     (N1, N2, "Carrocería", "Baúles",                      "", url_n3("carroceria"), "", ""),
     (N1, N2, "Carrocería", "Baúles y Tapas Traseras",     "", url_n3("carroceria"), "", ""),
