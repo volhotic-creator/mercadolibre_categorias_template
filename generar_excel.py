@@ -31,7 +31,7 @@ N2 = "Repuestos Autos y Camionetas"
 
 CATEGORIAS = [
     # ── Nivel 3: categorías de Repuestos Autos y Camionetas ──────────────────
-    (N1, N2, "Baterías",                    "", "", "", ""),
+    (N1, N2, "Baterías",                    "", "", "", "Categoría terminal — sin subcategorías (va directo a productos)"),
     (N1, N2, "Carrocería",                  "", "", "", ""),
     (N1, N2, "Cerraduras y Llaves",         "", "", "", ""),
     (N1, N2, "Climatización",               "", "", "", ""),
