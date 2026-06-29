@@ -26,17 +26,33 @@ HEADERS = [
 # Cada fila = (N1, N2, N3, N4, N5, ID_MLA, Notas)
 # Dejar en "" los niveles que no apliquen.
 # ─────────────────────────────────────────────
+N1 = "Accesorios para Vehículos"
+N2 = "Repuestos Autos y Camionetas"
+
 CATEGORIAS = [
-    # TEST — 1 línea de ejemplo para validar estructura
-    (
-        "Accesorios para Vehículos",  # Nivel 1
-        "Autopartes y Accesorios",    # Nivel 2
-        "TEST",                       # Nivel 3
-        "",                           # Nivel 4
-        "",                           # Nivel 5
-        "",                           # ID MLA
-        "Fila de prueba — reemplazar con datos reales",  # Notas
-    ),
+    # ── Nivel 3: categorías de Repuestos Autos y Camionetas ──────────────────
+    (N1, N2, "Baterías",                    "", "", "", ""),
+    (N1, N2, "Carrocería",                  "", "", "", ""),
+    (N1, N2, "Cerraduras y Llaves",         "", "", "", ""),
+    (N1, N2, "Climatización",               "", "", "", ""),
+    (N1, N2, "Componentes de Seguridad",    "", "", "", ""),
+    (N1, N2, "Conducción Asistida Avanzada","", "", "", ""),
+    (N1, N2, "Electroventiladores",         "", "", "", ""),
+    (N1, N2, "Eléctricos, Híbridos y PHEV", "", "", "", ""),
+    (N1, N2, "Encendido",                   "", "", "", ""),
+    (N1, N2, "Escapes",                     "", "", "", ""),
+    (N1, N2, "Filtros",                     "", "", "", ""),
+    (N1, N2, "Frenos",                      "", "", "", ""),
+    (N1, N2, "Iluminación",                 "", "", "", ""),
+    (N1, N2, "Instalaciones Eléctricas",    "", "", "", ""),
+    (N1, N2, "Inyección",                   "", "", "", ""),
+    (N1, N2, "Motor",                       "", "", "", ""),
+    (N1, N2, "Otros",                       "", "", "", ""),
+    (N1, N2, "Repuestos de Exterior",       "", "", "", ""),
+    (N1, N2, "Repuestos de Habitáculo",     "", "", "", ""),
+    (N1, N2, "Suspensión y Dirección",      "", "", "", ""),
+    (N1, N2, "Transmisión",                 "", "", "", ""),
+    (N1, N2, "Ventanas y Sellos",           "", "", "", ""),
 ]
 
 
